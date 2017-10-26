@@ -314,7 +314,7 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
             level: 'hard',
             name: 'Miami International Airport',
             premium: false,
-            wip: true
+            wip: false
         },
         // {
         //     icao: 'kmsp',
