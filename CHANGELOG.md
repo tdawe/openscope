@@ -16,6 +16,7 @@
 ### Enhancements & Refactors
 - [#1005](https://github.com/openscope/openscope/issues/1005) - Minor updates to KRDU
 - [#1023](https://github.com/openscope/openscope/issues/1023) - Standardize `openScope` capitalization
+- [#794](https://github.com/openscope/openscope/issues/794) - Bring KMIA back into compliance with the airport specs
 
 
 
