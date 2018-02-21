@@ -7,7 +7,7 @@
 
 
 ### Bugfixes
-- Runways where aircraft have taxied to and gone to another runway do not display subsequent aircraft [#870](https://github.com/openscope/openscope/issues/870)
+- Fix bug where changing aircraft to new departure runway made the previous one unusable by other aircraft [#870](https://github.com/openscope/openscope/issues/870)
 
 
 
