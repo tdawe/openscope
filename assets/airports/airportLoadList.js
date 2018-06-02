@@ -134,13 +134,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     premium: false,
         //     wip: true
         // },
-        // {
-        //     icao: 'egll',
-        //     level: 'hard',
-        //     name: 'London Heathrow Airport',
-        //     premium: false,
-        //     wip: true
-        // },
+        {
+            icao: 'egll',
+            level: 'hard',
+            name: 'London Heathrow Airport',
+            premium: false,
+            wip: true
+        },
         {
             icao: 'egnm',
             level: 'beginner',
