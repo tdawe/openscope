@@ -66,10 +66,10 @@
         }
     ],
     "fixes": {
-        "_LONR072D03.5": [51.50527, -0.37834],
-        "_LONR072D05.5": [51.51553924312, -0.3271728925],
-        "_LONR114D01.5": [51.47783333333, -0.4305],
-        "_LONR262D11"  : [51.45972697948, -0.75501395081],
+        "_LON072003.5": [51.50527, -0.37834],
+        "_LON072005.5": [51.51553924312, -0.3271728925],
+        "_LON114001.5": [51.47783333333, -0.4305],
+        "_LON262011"  : [51.45972697948, -0.75501395081],
 
 
 
@@ -189,6 +189,8 @@
         "TOTRI": ["N51d46m30.00", "E0d11m48.00"],
         "TRIPO": ["N51d42m47.00", "E1d04m58.00"],
         "TUBSU": ["N52.06829496328186", "W1.6745139635051314"],
+        "ULTIB": ["N51d39m60.00", "W000d16m73.00"],
+        "UMLAT": ["N51d40m33.00", "W000d41m65.00"],
         "VABIK": ["N51.24639643337115", "E1.9999184890542776"],
         "WCO"  : ["N51d51m11.00", "W0d57m45.00"],
         "WEALD": ["N51d19m51.00", "E000d02m05.00"],
@@ -900,145 +902,193 @@
             "icao": "BPK5K",
             "name": "Brookmans Park Five Kilo",
             "rwy": {
-                "EGLL09L": ["^_LONR114D01.5", "_LONR072D03.5", ["^_LONR072D10", "A30+"], ["^_BPKR196D10", "A40+"], ["_BPKR196D06", "A60"], "BAPAG"]
+                "EGLL09L": ["^_LON114001.5", "_LON072003.5", ["^_LON072010", "A30+"], ["^_BPK196010", "A40+"], ["_BPK196006", "A60"], "BAPAG"]
             },
             "body": [],
             "exitPoints": {
                 "BPK": [["BPK", "A60"]]
             },
-            "draw": [["_LONR114D01.5", "_LONR072D03.5", "_LONR072D10", "_BPKR196D10", "_BPKR196D06", "BAPAG", "BPK"]]
+            "draw": [["_LON114001.5", "_LON072003.5", "_LON072010", "_BPK196010", "_BPK196006", "BAPAG", "BPK"]]
         },
         "BPK6J": {
             "icao": "BPK6J",
             "name": "Brookmans Park Six Juliet",
             "rwy": {
-                "EGLL09R": ["^_LONR134D02", "_LONR072D05.5", ["^_LONR072D10", "A30+"], ["^_BPKR196D10", "A40+"], ["_BPKR196D06", "A60"], "BAPAG"]
+                "EGLL09R": ["^_LON134002", "_LON072005.5", ["^_LON072010", "A30+"], ["^_BPK196010", "A40+"], ["_BPK196006", "A60"], "BAPAG"]
             },
             "body": [],
             "exitPoints": {
                 "BPK": [["BPK", "A60"]]
             },
-            "draw": [["_LONR134D02", "_LONR072D05.5", "_LONR072D10", "_BPKR196D10", "_BPKR196D06", "BAPAG", "BPK"]]
+            "draw": [["_LON134002", "_LON072005.5", "_LON072010", "_BPK196010", "_BPK196006", "BAPAG", "BPK"]]
         },
         "BPK7F": {
             "icao": "BPK7F",
             "name": "Brookmans Park Seven Foxtrot",
             "rwy": {
-                "EGLL27R": ["^_LONR270D04", "^_LONR280D06", ["^_LONR306D08", "A40+"], ["^_CHTR234D03", "A50+"], ["CHT", "A60"]]
+                "EGLL27R": ["^_LON270004", "^_LON280006", ["^_LON306008", "A40+"], ["^_CHT234003", "A50+"], ["CHT", "A60"]]
             },
             "body": [],
             "exitPoints": {
                 "CHT": [["CHT", "A60"]]
             },
-            "draw": [["_LONR270D04", "_LONR280D06", "_LONR306D08", "_CHTR234D03", "CHT", "BPK"]]
+            "draw": [["_LON270004", "_LON280006", "_LON306008", "_CHT234003", "CHT", "BPK"]]
         },
         "BPK7G": {
             "icao": "BPK7G",
             "name": "Brookmans Park Seven Golf",
             "rwy": {
-                "EGLL27R": ["^_LONR258D03", "^_LONR228D04", "^_LONR280D06", ["^_LONR306D08", "A40+"], ["^_CHTR234D03", "A50+"], ["CHT", "A60"]]
+                "EGLL27R": ["^_LON258003", "^_LON228004", "^_LON280006", ["^_LON306008", "A40+"], ["^_CHT234003", "A50+"], ["CHT", "A60"]]
             },
             "body": [],
             "exitPoints": {
                 "CHT": [["CHT", "A60"]]
             },
-            "draw": [["_LONR258D03", "_LONR270D04", "_LONR280D06", "_LONR306D08", "_CHTR234D03", "CHT", "BPK"]]
+            "draw": [["_LON258003", "_LON270004", "_LON280006", "_LON306008", "_CHT234003", "CHT", "BPK"]]
         },
         "CPT3F": {
             "icao": "CPT3F",
             "name": "Compton Three Foxtrot",
             "rwy": {
-                "EGLL27R": ["^_LONR257D7", ["^_LONR262D11", "A30+"]]
+                "EGLL27R": ["^_LON257007", ["^_LON262011", "A30+"]]
             },
-            "body": [["WOD", "A40+"], ["^_CPTR101D8", "A60"]],
+            "body": [["WOD", "A40+"], ["^_CPT101008", "A60"]],
             "exitPoints": {
                 "CPT": ["CPT"]
             },
-            "draw": [["_LONR257D7", "_LONR262D11", "WOD", "_CPTR101D8", "CPT"]]
+            "draw": [["_LON257007", "_LON262011", "WOD", "_CPT101008", "CPT"]]
         },
         "CPT3G": {
             "icao": "CPT3G",
             "name": "Compton Three Golf",
             "rwy": {
-                "EGLL27L": ["^_LONR257D7", ["^_LONR262D11", "A30+"]]
+                "EGLL27L": ["^_LON257007", ["^_LON262011", "A30+"]]
             },
-            "body": [["WOD", "A40+"], ["^_CPTR101D8", "A60"]],
+            "body": [["WOD", "A40+"], ["^_CPT101008", "A60"]],
             "exitPoints": {
                 "CPT": ["CPT"]
             },
-            "draw": [["_LONR257D7", "_LONR262D11", "WOD", "_CPTR101D8", "CPT"]]
+            "draw": [["_LON257007", "_LON262011", "WOD", "_CPT101008", "CPT"]]
         },
         "CPT4K": {
             "icao": "CPT4K",
             "name": "Compton Four Kilo",
             "rwy": {
-                "EGLL09L": ["^_LONR114D01.5", ["^_CPTR101D17", "A30+"]]
+                "EGLL09L": ["^_LON114001.5", ["^_CPT101017", "A30+"]]
             },
-            "body": [["WOD", "A40+"], ["^_CPTR101D8", "A60"]],
+            "body": [["WOD", "A40+"], ["^_CPT101008", "A60"]],
             "exitPoints": {
                 "CPT": ["CPT"]
             },
-            "draw": [["_LONR114D01.5", "_CPTR101D17", "WOD", "_CPTR101D8", "CPT"]]
+            "draw": [["_LON114001.5", "_CPT101017", "WOD", "_CPT101008", "CPT"]]
         },
         "CPT5J": {
             "icao": "CPT5J",
             "name": "Compton Five Juliet",
             "rwy": {
-                "EGLL09R": ["^_LONR134D02", ["^_CPTR101D17", "A30+"]]
+                "EGLL09R": ["^_LON134002", ["^_CPT101017", "A30+"]]
             },
-            "body": [["WOD", "A40+"], ["^_CPTR101D8", "A60"]],
+            "body": [["WOD", "A40+"], ["^_CPT101008", "A60"]],
             "exitPoints": {
                 "CPT": ["CPT"]
             },
-            "draw": [["_LONR134D02", "_CPTR101D17", "WOD", "_CPTR101D8", "CPT"]]
+            "draw": [["_LON134002", "_CPT101017", "WOD", "_CPT101008", "CPT"]]
         },
         "MID3G": {
             "icao": "MID3G",
             "name": "Midhurst Three Golf",
             "rwy": {
-                "EGLL27L": ["^_LONR241D05.5", ["^_LONR217D08", "A30+"], ["^_LON195012", "A40+"], ["^_MIDR012D10", "A50+"]]
+                "EGLL27L": ["^_LON241005.5", ["^_LON217008", "A30+"], ["^_LON195012", "A40+"], ["^_MID012010", "A50+"]]
             },
             "body": [],
             "exitPoints": {
                 "MID": [["MID", "A60"]]
             },
-            "draw": [["_LONR241D05.5", "_LONR217D08", "_LON195012", "_MIDR012D10", "MID"]]
+            "draw": [["_LON241005.5", "_LON217008", "_LON195012", "_MID012010", "MID"]]
         },
         "MID3J": {
             "icao": "MID3J",
             "name": "Midhurst Three Juliet",
             "rwy": {
-                "EGLL09R": ["^_LONR134D02", "^_LONR126D03.5", ["^_MIDR027D19", "A30+"], ["^_MIDR027D15", "A40+"], ["^_MIDR027D12", "A50+"]]
+                "EGLL09R": ["^_LON134002", "^_LON126003.5", ["^_MID027019", "A30+"], ["^_MID027015", "A40+"], ["^_MID027012", "A50+"]]
             },
             "body": [],
             "exitPoints": {
                 "MID": [["MID", "A60"]]
             },
-            "draw": [["_LONR134D02", "_LONR126D03.5", "_MIDR027D19", "_MIDR027D15", "_MIDR027D12", "MID"]]
+            "draw": [["_LON134002", "_LON126003.5", "_MID027019", "_MID027015", "_MID027012", "MID"]]
         },
         "MID3K": {
             "icao": "MID3K",
             "name": "Midhurst Three Kilo",
             "rwy": {
-                "EGLL09L": ["^_LONR114D01.5", "^_LONR126D03.5", ["^_MIDR027D19", "A30+"], ["^_MIDR027D15", "A40+"], ["^_MIDR027D12", "A50+"]]
+                "EGLL09L": ["^_LON114001.5", "^_LON126003.5", ["^_MID027019", "A30+"], ["^_MID027015", "A40+"], ["^_MID027012", "A50+"]]
             },
             "body": [],
             "exitPoints": {
                 "MID": [["MID", "A60"]]
             },
-            "draw": [["_LONR114D01.5", "_LONR126D03.5", "_MIDR027D19", "_MIDR027D15", "_MIDR027D12", "MID"]]
+            "draw": [["_LON114001.5", "_LON126003.5", "_MID027019", "_MID027015", "_MID027012", "MID"]]
         },
         "MID4F": {
             "icao": "MID4F",
             "name": "Midhurst Four Foxtrot",
             "rwy": {
-                "EGLL27L": ["^_LONR257D05", ["^_LONR217D08", "A30+"], ["^_LON195012", "A40+"], ["^_MIDR012D10", "A50+"]]
+                "EGLL27L": ["^_LON257005", ["^_LON217008", "A30+"], ["^_LON195012", "A40+"], ["^_MID012010", "A50+"]]
             },
             "body": [],
             "exitPoints": {
                 "MID": [["MID", "A60"]]
             },
-            "draw": [["_LONR257D05", "_LONR217D08", "_LON195012", "_MIDR012D10", "MID"]]
+            "draw": [["_LON257005", "_LON217008", "_LON195012", "_MID012010", "MID"]]
+        },
+        "ULTIB1J": {
+            "icao": "ULTIB1J",
+            "name": "Ultib One Juliet",
+            "rwy": {
+                "EGLL09R": ["^_LON134002", "_LON072005.5"]
+            },
+            "body": [["^_LON072010", "A30+"], "_BIG330015", ["^_BIG330020"]],
+            "exitPoints": {
+                "ULTIB": [["ULTIB", "A60"]]
+            },
+            "draw": [["_LON134002", "_LON072005.5", "_LON072010", "_BIG330015", "_BIG330020", "ULTIB"]]
+        },
+        "ULTIB1K": {
+            "icao": "ULTIB1K",
+            "name": "Ultib One Kilo",
+            "rwy": {
+                "EGLL09RL": ["^_LON114001.5", "_LON072003.5"]
+            },
+            "body": [["^_LON072010", "A30+"], "_BIG330015", ["^_BIG330020"]],
+            "exitPoints": {
+                "ULTIB": [["ULTIB", "A60"]]
+            },
+            "draw": [["_LON114001.5", "_LON072003.5", "_LON072010", "_BIG330015", "_BIG330020", "ULTIB"]]
+        },
+        "UMLAT1F": {
+            "icao": "UMLAT1F",
+            "name": "Umlat One Foxtrot",
+            "rwy": {
+                "EGLL27R": ["^_LON270004"]
+            },
+            "body": ["^_LON280007", ["BUR", "A30+"], ["^_LON306010", "A40+"]],
+            "exitPoints": {
+                "UMLAT": [["UMLAT", "A60"]]
+            },
+            "draw": [["_LON270004", "_LON280007", "BUR", "_LON306010", "UMLAT"]]
+        },
+        "UMLAT1G": {
+            "icao": "UMLAT1G",
+            "name": "Umlat One Golf",
+            "rwy": {
+                "EGLL27L": ["^_LON258003"]
+            },
+            "body": ["^_LON280007", ["BUR", "A30+"], ["^_LON306010", "A40+"]],
+            "exitPoints": {
+                "UMLAT": [["UMLAT", "A60"]]
+            },
+            "draw": [["_LON258003", "_LON280007", "BUR", "_LON306010", "UMLAT"]]
         }
     },
     "stars": {
