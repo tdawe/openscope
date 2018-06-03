@@ -894,9 +894,9 @@
             "icao": "CPT3F",
             "name": "Compton Three Foxtrot",
             "rwy": {
-                "EGLL27R": ["_LONR257D7", ["_LONR262D11", "A30+|A60-"]]
+                "EGLL27R": ["^_LONR257D7", ["^_LONR262D11", "A30+"]]
             },
-            "body": [["WOD", "A40+|A60-"], ["_CPTR101D8", "A60"]],
+            "body": [["WOD", "A40+"], ["^_CPTR101D8", "A60"]],
             "exitPoints": {
                 "CPT": ["CPT"]
             },
@@ -906,9 +906,9 @@
             "icao": "CPT3G",
             "name": "Compton Three Golf",
             "rwy": {
-                "EGLL27L": ["_LONR257D7", ["_LONR262D11", "A30+|A60-"]]
+                "EGLL27L": ["^_LONR257D7", ["^_LONR262D11", "A30+"]]
             },
-            "body": [["WOD", "A40+|A60-"], ["_CPTR101D8", "A60"]],
+            "body": [["WOD", "A40+"], ["^_CPTR101D8", "A60"]],
             "exitPoints": {
                 "CPT": ["CPT"]
             },
@@ -918,25 +918,73 @@
             "icao": "CPT4K",
             "name": "Compton Four Kilo",
             "rwy": {
-                "EGLL09L": ["_LOND1.5", ["_CPTR101D17", "A30+|A60-"]]
+                "EGLL09L": ["^_LONR114D01.5", ["^_CPTR101D17", "A30+"]]
             },
-            "body": [["WOD", "A40+|A60-"], ["_CPTR101D8", "A60"]],
+            "body": [["WOD", "A40+"], ["^_CPTR101D8", "A60"]],
             "exitPoints": {
                 "CPT": ["CPT"]
             },
-            "draw": [["_LOND1.5", "_CPTR101D17", "WOD", "_CPTR101D8", "CPT"]]
+            "draw": [["_LONR114D01.5", "_CPTR101D17", "WOD", "_CPTR101D8", "CPT"]]
         },
         "CPT5J": {
             "icao": "CPT5J",
             "name": "Compton Five Juliet",
             "rwy": {
-                "EGLL09R": ["_LOND2", ["_CPTR101D17", "A30+|A60-"]]
+                "EGLL09R": ["^_LONR134D02", ["^_CPTR101D17", "A30+"]]
             },
-            "body": [["WOD", "A40+|A60-"], ["_CPTR101D8", "A60"]],
+            "body": [["WOD", "A40+"], ["^_CPTR101D8", "A60"]],
             "exitPoints": {
                 "CPT": ["CPT"]
             },
-            "draw": [["_LOND2", "_CPTR101D17", "WOD", "_CPTR101D8", "CPT"]]
+            "draw": [["_LONR134D02", "_CPTR101D17", "WOD", "_CPTR101D8", "CPT"]]
+        },
+        "MID3G": {
+            "icao": "MID3G",
+            "name": "Midhurst Three Golf",
+            "rwy": {
+                "EGLL27L": ["^_LONR241D05.5", ["^_LONR217D08", "A30+"], ["^_LON195012", "A40+"], ["^_MIDR012D10", "A50+"]]
+            },
+            "body": [],
+            "exitPoints": {
+                "MID": [["MID", "A60"]]
+            },
+            "draw": [["_LONR241D05.5", "_LONR217D08", "_LON195012", "_MIDR012D10", "MID"]]
+        },
+        "MID3J": {
+            "icao": "MID3J",
+            "name": "Midhurst Three Juliet",
+            "rwy": {
+                "EGLL09R": ["^_LONR134D02", "^_LONR126D03.5", ["^_MIDR027D19", "A30+"], ["^_MIDR027D15", "A40+"], ["^_MIDR027D12", "A50+"]]
+            },
+            "body": [],
+            "exitPoints": {
+                "MID": [["MID", "A60"]]
+            },
+            "draw": [["_LONR134D02", "_LONR126D03.5", "_MIDR027D19", "_MIDR027D15", "_MIDR027D12", "MID"]]
+        },
+        "MID3K": {
+            "icao": "MID3K",
+            "name": "Midhurst Three Kilo",
+            "rwy": {
+                "EGLL09L": ["^_LONR114D01.5", "^_LONR126D03.5", ["^_MIDR027D19", "A30+"], ["^_MIDR027D15", "A40+"], ["^_MIDR027D12", "A50+"]]
+            },
+            "body": [],
+            "exitPoints": {
+                "MID": [["MID", "A60"]]
+            },
+            "draw": [["_LONR114D01.5", "_LONR126D03.5", "_MIDR027D19", "_MIDR027D15", "_MIDR027D12", "MID"]]
+        },
+        "MID4F": {
+            "icao": "MID4F",
+            "name": "Midhurst Four Foxtrot",
+            "rwy": {
+                "EGLL27L": ["^_LONR257D05", ["^_LONR217D08", "A30+"], ["^_LON195012", "A40+"], ["^_MIDR012D10", "A50+"]]
+            },
+            "body": [],
+            "exitPoints": {
+                "MID": [["MID", "A60"]]
+            },
+            "draw": [["_LONR257D05", "_LONR217D08", "_LON195012", "_MIDR012D10", "MID"]]
         }
     },
     "stars": {
