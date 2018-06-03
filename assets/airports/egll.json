@@ -1055,6 +1055,54 @@
             },
             "draw": [["_I-LL270001", "_EPM317013", "EPM", "_DET272032", "_DET272029", "_DET272005", "DET"]]
         },
+        "GASGU1J": {
+            "icao": "GASGU1J",
+            "name": "Gasgu One Juliet",
+            "rwy": {
+                "EGLL09R": ["^_LON134002"]
+            },
+            "body": ["^_LON126005", "_LON126008", ["^_OCK043002", "A30+"], "OCK", ["^_OCK254003", "A40+"], ["^_OCK254007", "A50+"], ["^_OCK254011", "A60"]],
+            "exitPoints": {
+                "GASGU": [["GASGU", "A60"]]
+            },
+            "draw": [["_LON134002", "_LON126005", "_LON126008", "_OCK043002", "OCK", "_OCK254003", "_OCK254007", "_OCK254011"]]
+        },
+        "GASGU1K": {
+            "icao": "GASGU1K",
+            "name": "Gasgu One Kilo",
+            "rwy": {
+                "EGLL09R": ["^_LON114001.5"]
+            },
+            "body": ["^_LON126005", "_LON126008", ["^_OCK043002", "A30+"], "OCK", ["^_OCK254003", "A40+"], ["^_OCK254007", "A50+"], ["^_OCK254011", "A60"]],
+            "exitPoints": {
+                "GASGU": [["GASGU", "A60"]]
+            },
+            "draw": [["_LON114001.5", "_LON126005", "_LON126008", "_OCK043002", "OCK", "_OCK254003", "_OCK254007", "_OCK254011"]]
+        },
+        "GOGSI1F": {
+            "icao": "GOGSI1F",
+            "name": "Gogsi One Foxtrot",
+            "rwy": {
+                "EGLL27R": []
+            },
+            "body": ["^_LON257007", ["^_LON262012", "A30+"], "^_LON263013", ["^_LON259015", "A40+"], ["^_SAM033027", "A55+"]],
+            "exitPoints": {
+                "GOGSI": [["GOGSI", "A60"]]
+            },
+            "draw": [["_LON257007", "_LON262012", "_LON263013", "_LON259015", "_SAM033027", "GOGSI"]]
+        },
+        "GOGSI1G": {
+            "icao": "GOGSI1G",
+            "name": "Gogsi One Golf",
+            "rwy": {
+                "EGLL27L": []
+            },
+            "body": ["^_LON257007", ["^_LON262012", "A30+"], "^_LON263013", ["^_LON259015", "A40+"], ["^_SAM033027", "A55+"]],
+            "exitPoints": {
+                "GOGSI": [["GOGSI", "A60"]]
+            },
+            "draw": [["_LON257007", "_LON262012", "_LON263013", "_LON259015", "_SAM033027", "GOGSI"]]
+        },
         "MID3J": {
             "icao": "MID3J",
             "name": "Midhurst Three Juliet",
