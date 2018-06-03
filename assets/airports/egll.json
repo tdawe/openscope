@@ -66,13 +66,7 @@
         }
     ],
     "fixes": {
-        "_DETR284D34": ["N51d26m13.87", "W0d16m53.69"],
-        "_LONR072D10": ["N51d32m17.76", "W0d12m45.87"],
-        "_LONR126D5" : ["N51d26m18.00", "W0d21m31.79"],
-        "_LONR241D5" : ["N51d26m34.28", "W0d35m41.57"],
-        "_LONR257D5" : ["N51d28m06.51", "W0d35m47.50"],
-        "_LONR257D7" : ["N51d27m39.36", "W0d38m54.39"],
-        "_MIDR012D15": ["N51d17m53.08", "W0d32m31.13"],
+        "_LONR262D11": [51.45972697948, -0.75501395081],
         "ABAVI": ["N51d28m34.45", "W0d45m05.67"],
         "ABTUM": ["N51.43437573232786", "E1.3747231630254260"],
         "ALESO": ["N50d34m32.00", "E1d13m32.00"],
@@ -896,7 +890,54 @@
         }
     ],
     "sids": {
-
+        "CPT3F": {
+            "icao": "CPT3F",
+            "name": "Compton Three Foxtrot",
+            "rwy": {
+                "EGLL27R": ["_LONR257D7", ["_LONR262D11", "A30+|A60-"]]
+            },
+            "body": [["WOD", "A40+|A60-"], ["_CPTR101D8", "A60"]],
+            "exitPoints": {
+                "CPT": ["CPT"]
+            },
+            "draw": [["_LONR257D7", "_LONR262D11", "WOD", "_CPTR101D8", "CPT"]]
+        },
+        "CPT3G": {
+            "icao": "CPT3G",
+            "name": "Compton Three Golf",
+            "rwy": {
+                "EGLL27L": ["_LONR257D7", ["_LONR262D11", "A30+|A60-"]]
+            },
+            "body": [["WOD", "A40+|A60-"], ["_CPTR101D8", "A60"]],
+            "exitPoints": {
+                "CPT": ["CPT"]
+            },
+            "draw": [["_LONR257D7", "_LONR262D11", "WOD", "_CPTR101D8", "CPT"]]
+        },
+        "CPT4K": {
+            "icao": "CPT4K",
+            "name": "Compton Four Kilo",
+            "rwy": {
+                "EGLL09L": ["_LOND1.5", ["_CPTR101D17", "A30+|A60-"]]
+            },
+            "body": [["WOD", "A40+|A60-"], ["_CPTR101D8", "A60"]],
+            "exitPoints": {
+                "CPT": ["CPT"]
+            },
+            "draw": [["_LOND1.5", "_CPTR101D17", "WOD", "_CPTR101D8", "CPT"]]
+        },
+        "CPT5J": {
+            "icao": "CPT5J",
+            "name": "Compton Five Juliet",
+            "rwy": {
+                "EGLL09R": ["_LOND2", ["_CPTR101D17", "A30+|A60-"]]
+            },
+            "body": [["WOD", "A40+|A60-"], ["_CPTR101D8", "A60"]],
+            "exitPoints": {
+                "CPT": ["CPT"]
+            },
+            "draw": [["_LOND2", "_CPTR101D17", "WOD", "_CPTR101D8", "CPT"]]
+        },
     },
     "stars": {
 
