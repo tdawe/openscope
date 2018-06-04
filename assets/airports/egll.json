@@ -1373,6 +1373,81 @@
             },
             "draw": [["ALESO", "ROTNO", "ETVAX", "TIGER", "BIG"]]
         },
+        "BNN1B": {
+            "icao": "BNN1B",
+            "name": "Bovingdon One Bravo",
+            "entryPoints": {
+                "NUGRA": ["NUGRA", "TOBID", "SOPIT", "WCO"]
+            },
+            "body": [["@BNN", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["NUGRA", "TOBID", "SOPIT", "WCO", "BNN"]]
+        },
+        "BNN1C": {
+            "icao": "BNN1C",
+            "name": "Bovingdon One Charlie",
+            "entryPoints": {
+                "DTY": ["DTY", "WCO"]
+            },
+            "body": [["@BNN", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["DTY", "WCO", "BNN"]]
+        },
+        "BNN1D": {
+            "icao": "BNN1D",
+            "name": "Bovingdon One Delta",
+            "entryPoints": {
+                "KENET": ["KENET"]
+            },
+            "body": [["@BNN", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["KENET", "BNN"]]
+        },
+        "BNN1E": {
+            "icao": "BNN1E",
+            "name": "Bovingdon One Echo",
+            "entryPoints": {
+                "LAM": ["LAM", "DONNA"]
+            },
+            "body": [["@BNN", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["LAM", "DONNA", "BNN"]]
+        },
+        "BNN4A": {
+            "icao": "BNN4A",
+            "name": "Bovingdon Four Alpha",
+            "entryPoints": {
+                "HON": ["HON", "TOBID", "SOPIT", "WCO"]
+            },
+            "body": [["@BNN", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["HON", "TOBID", "SOPIT", "WCO", "BNN"]]
+        },
         "OTMET1H": {
             "icao": "OTMET1H",
             "name": "Otmet One Hotel",
