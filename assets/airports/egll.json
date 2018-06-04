@@ -1568,6 +1568,21 @@
             },
             "draw": [["HON", "WOD", "OCK"]]
         },
+        "OCK2C": {
+            "icao": "OCK2C",
+            "name": "Ockham Two Charlie",
+            "entryPoints": {
+                "SAM": ["SAM"]
+            },
+            "body": [["HAZEL", "A130"], ["@OCK", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["SAM", "HAZEL", "OCK"]]
+        },
         "OCK2F": {
             "icao": "OCK2F",
             "name": "Ockham Two Foxtrot",
@@ -1582,6 +1597,36 @@
                 "EGLL09L": []
             },
             "draw": [["BEDEK", "NIGIT", "OCK"]]
+        },
+        "OCK3E": {
+            "icao": "OCK3E",
+            "name": "Ockham Three Echo",
+            "entryPoints": {
+                "BILNI": ["BILNI", "KUMIL", "ELDER"]
+            },
+            "body": [["HAZEL", "A130"], ["@OCK", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["BILNI", "KUMIL", "ELDER", "HAZEL", "OCK"]]
+        },
+        "OCK4B": {
+            "icao": "OCK4B",
+            "name": "Ockham Four Bravo",
+            "entryPoints": {
+                "DOMUT": ["DOMUT", "KATHY"]
+            },
+            "body": [["HAZEL", "A130"], ["@OCK", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["DOMUT", "KATHY", "HAZEL", "OCK"]]
         },
         "OTMET1H": {
             "icao": "OTMET1H",
