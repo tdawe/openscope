@@ -1103,6 +1103,54 @@
             },
             "draw": [["_LON257007", "_LON262012", "_LON263013", "_LON259015", "_SAM033027", "GOGSI"]]
         },
+        "MAY2G": {
+            "icao": "MAY2G",
+            "name": "Mayfield Two Golf",
+            "rwy": {
+                "EGLL27L": ["^_I-LL270001", "_EPM317012"]
+            },
+            "body": [["^EPM", "A50"]],
+            "exitPoints": {
+                "MAY": [["@MAY", "A50"]]
+            },
+            "draw": [["_I-LL270001", "_EPM317012", "EPM", "MAY"]]
+        },
+        "MAY2J": {
+            "icao": "MAY2J",
+            "name": "Mayfield Two Juliet",
+            "rwy": {
+                "EGLL09R": ["^_LON134002", "^_LON126003.5", "^_MID027025", ["^_MID270020", "A50"]]
+            },
+            "body": [["^EPM", "A50"]],
+            "exitPoints": {
+                "MAY": [["@MAY", "A50"]]
+            },
+            "draw": [["_LON134002", "_LON126003.5", "_MID027025", "_MID270020", "EPM", "MAY"]]
+        },
+        "MAY2K": {
+            "icao": "MAY2K",
+            "name": "Mayfield Two Kilo",
+            "rwy": {
+                "EGLL09L": ["^_LON114001.5", "^_LON126003.5", "^_MID027025", ["^_MID270020", "A50"]]
+            },
+            "body": [["^EPM", "A50"]],
+            "exitPoints": {
+                "MAY": [["@MAY", "A50"]]
+            },
+            "draw": [["_LON114001.5", "_LON126003.5", "_MID027025", "_MID270020", "EPM", "MAY"]]
+        },
+        "MAY3F": {
+            "icao": "MAY3F",
+            "name": "Mayfield Three Foxtrot",
+            "rwy": {
+                "EGLL27L": ["^_LON251002", "_EPM317012"]
+            },
+            "body": [["^EPM", "A50"]],
+            "exitPoints": {
+                "MAY": [["@MAY", "A50"]]
+            },
+            "draw": [["_LON251002", "_EPM317012", "EPM", "MAY"]]
+        },
         "MID3J": {
             "icao": "MID3J",
             "name": "Midhurst Three Juliet",
