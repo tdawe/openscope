@@ -1688,6 +1688,21 @@
             },
             "draw": [["HON", "WOD", "_HON153065", "TOMMO"]]
         },
+        "TOMMO2C": {
+            "icao": "TOMMO2C",
+            "name": "Tommo Two Charlie",
+            "entryPoints": {
+                "SAM": ["SAM"]
+            },
+            "body": [["HAZEL", "A130"], "FIMLI", ["@TOMMO", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["SAM", "HAZEL", "FIMLI", "TOMMO"]]
+        },
         "TOMMO2F": {
             "icao": "TOMMO2F",
             "name": "Tommo Two Foxtrot",
@@ -1703,9 +1718,39 @@
             },
             "draw": [["BEDEK", "NIGIT", "TOMMO"]]
         },
+        "TOMMO3E": {
+            "icao": "TOMMO3E",
+            "name": "Tommo Three Echo",
+            "entryPoints": {
+                "BILNI": ["BILNI", "KUMIL", "ELDER"]
+            },
+            "body": [["HAZEL", "A130"], "FIMLI", ["@TOMMO", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["BILNI", "KUMIL", "ELDER", "HAZEL", "FIMLI", "TOMMO"]]
+        },
+        "TOMMO4B": {
+            "icao": "TOMMO4B",
+            "name": "Tommo Four Bravo",
+            "entryPoints": {
+                "DOMUT": ["DOMUT", "KATHY"]
+            },
+            "body": [["HAZEL", "A130"], "FIMLI", ["@TOMMO", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["DOMUT", "KATHY", "HAZEL", "FIMLI", "TOMMO"]]
+        },
         "WEALD1E": {
             "icao": "WEALD1E",
-            "name": "Biggin One Echo",
+            "name": "Weald One Echo",
             "entryPoints": {
                 "LOGAN": ["LOGAN", "KOPUL", "TANET", "DET"]
             },
@@ -1719,8 +1764,8 @@
             "draw": [["LOGAN", "KOPUL", "TANET", "DET", "WEALD"]]
         },
         "WEALD1F": {
-            "icao": "BIG1F",
-            "name": "Biggin One Foxtrot",
+            "icao": "WEALD1F",
+            "name": "Weald One Foxtrot",
             "entryPoints": {
                 "SANDY": ["SANDY"]
             },
@@ -1734,8 +1779,8 @@
             "draw": [["SANDY", "WEALD"]]
         },
         "WEALD1G": {
-            "icao": "BIG1G",
-            "name": "Biggin One Golf",
+            "icao": "WEALD1G",
+            "name": "Weald One Golf",
             "entryPoints": {
                 "OCK": ["OCK", "DORKI", "HILLY"]
             },
@@ -1749,8 +1794,8 @@
             "draw": [["OCK", "DORKI", "HILLY", "WEALD"]]
         },
         "WEALD3C": {
-            "icao": "BIG3C",
-            "name": "Biggin Three Charlie",
+            "icao": "WEALD3C",
+            "name": "Weald Three Charlie",
             "entryPoints": {
                 "DOV": ["DOV", "LYD", "TIGER"]
             },
@@ -1764,8 +1809,8 @@
             "draw": [["DOV", "LYD", "TIGER", "WEALD"]]
         },
         "WEALD3D": {
-            "icao": "BIG3D",
-            "name": "Biggin Three Delta",
+            "icao": "WEALD3D",
+            "name": "Weald Three Delta",
             "entryPoints": {
                 "LAM": ["LAM", "^HILLY"]
             },
@@ -1779,8 +1824,8 @@
             "draw": [["LAM", "HILLY", "WEALD"]]
         },
         "WEALD4B": {
-            "icao": "BIG4B",
-            "name": "Biggin Four Bravo",
+            "icao": "WEALD4B",
+            "name": "Weald Four Bravo",
             "entryPoints": {
                 "ALESO": ["ALESO", "ROTNO", "ETVAX", "TIGER"]
             },
