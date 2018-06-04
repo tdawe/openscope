@@ -1523,6 +1523,21 @@
             },
             "draw": [["HON", "TOBID", "SOPIT", "WCO", "BOVVA"]]
         },
+        "LAM3A": {
+            "icao": "LAM3A",
+            "name": "Lambourne Three Alpha",
+            "entryPoints": {
+                "LOGAN": ["LOGAN"]
+            },
+            "body": ["TRIPO", "SABER", "BRASO", ["@LAM", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["LOGAN", "TRIPO", "SABER", "BRASO", "LAM"]]
+        },
         "OTMET1H": {
             "icao": "OTMET1H",
             "name": "Otmet One Hotel",
