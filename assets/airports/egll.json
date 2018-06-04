@@ -1448,6 +1448,81 @@
             },
             "draw": [["HON", "TOBID", "SOPIT", "WCO", "BNN"]]
         },
+        "BOVVA1B": {
+            "icao": "BOVVA1B",
+            "name": "Bovingdon One Bravo",
+            "entryPoints": {
+                "NUGRA": ["NUGRA", "TOBID", "SOPIT", "WCO"]
+            },
+            "body": [["@BOVVA", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["NUGRA", "TOBID", "SOPIT", "WCO", "BOVVA"]]
+        },
+        "BOVVA1C": {
+            "icao": "BOVVA1C",
+            "name": "Bovingdon One Charlie",
+            "entryPoints": {
+                "DTY": ["DTY", "WCO"]
+            },
+            "body": [["@BOVVA", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["DTY", "WCO", "BOVVA"]]
+        },
+        "BOVVA1D": {
+            "icao": "BOVVA1D",
+            "name": "Bovingdon One Delta",
+            "entryPoints": {
+                "KENET": ["KENET"]
+            },
+            "body": [["@BOVVA", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["KENET", "BOVVA"]]
+        },
+        "BOVVA1E": {
+            "icao": "BOVVA1E",
+            "name": "Bovingdon One Echo",
+            "entryPoints": {
+                "LAM": ["LAM", "DONNA"]
+            },
+            "body": [["@BOVVA", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["LAM", "DONNA", "BOVVA"]]
+        },
+        "BOVVA4A": {
+            "icao": "BOVVA4A",
+            "name": "Bovingdon Four Alpha",
+            "entryPoints": {
+                "HON": ["HON", "TOBID", "SOPIT", "WCO"]
+            },
+            "body": [["@BOVVA", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["HON", "TOBID", "SOPIT", "WCO", "BOVVA"]]
+        },
         "OTMET1H": {
             "icao": "OTMET1H",
             "name": "Otmet One Hotel",
