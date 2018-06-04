@@ -1402,6 +1402,96 @@
                 "EGLL09L": []
             },
             "draw": [["ROXOG", "AMTOD", "BEGTO", "HAZEL", "LLS01", "OCK"]]
+        },
+        "WEALD1E": {
+            "icao": "WEALD1E",
+            "name": "Biggin One Echo",
+            "entryPoints": {
+                "LOGAN": ["LOGAN", "KOPUL", "TANET", "DET"]
+            },
+            "body": [["@WEALD", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["LOGAN", "KOPUL", "TANET", "DET", "WEALD"]]
+        },
+        "WEALD1F": {
+            "icao": "BIG1F",
+            "name": "Biggin One Foxtrot",
+            "entryPoints": {
+                "SANDY": ["SANDY"]
+            },
+            "body": [["@WEALD", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["SANDY", "WEALD"]]
+        },
+        "WEALD1G": {
+            "icao": "BIG1G",
+            "name": "Biggin One Golf",
+            "entryPoints": {
+                "OCK": ["OCK", "DORKI", "HILLY"]
+            },
+            "body": [["@WEALD", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["OCK", "DORKI", "HILLY", "WEALD"]]
+        },
+        "WEALD3C": {
+            "icao": "BIG3C",
+            "name": "Biggin Three Charlie",
+            "entryPoints": {
+                "DOV": ["DOV", "LYD", "TIGER"]
+            },
+            "body": [["@WEALD", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["DOV", "LYD", "TIGER", "WEALD"]]
+        },
+        "WEALD3D": {
+            "icao": "BIG3D",
+            "name": "Biggin Three Delta",
+            "entryPoints": {
+                "LAM": ["LAM", "^HILLY"]
+            },
+            "body": [["@WEALD", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["LAM", "HILLY", "WEALD"]]
+        },
+        "WEALD4B": {
+            "icao": "BIG4B",
+            "name": "Biggin Four Bravo",
+            "entryPoints": {
+                "ALESO": ["ALESO", "ROTNO", "ETVAX", "TIGER"]
+            },
+            "body": [["@WEALD", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["ALESO", "ROTNO", "ETVAX", "TIGER", "WEALD"]]
         }
     },
     "spawnPatterns": [
