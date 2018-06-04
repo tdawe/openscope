@@ -1538,6 +1538,51 @@
             },
             "draw": [["LOGAN", "TRIPO", "SABER", "BRASO", "LAM"]]
         },
+        "OCK1A": {
+            "icao": "OCK1A",
+            "name": "Ockham One Alpha",
+            "entryPoints": {
+                "KENET": ["KENET"]
+            },
+            "body": [["@OCK", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["KENET", "OCK"]]
+        },
+        "OCK1D": {
+            "icao": "OCK1D",
+            "name": "Ockham One Delta",
+            "entryPoints": {
+                "HON": ["HON", "WOD"]
+            },
+            "body": [["@OCK", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["HON", "WOD", "OCK"]]
+        },
+        "OCK2F": {
+            "icao": "OCK2F",
+            "name": "Ockham Two Foxtrot",
+            "entryPoints": {
+                "BEDEK": ["BEDEK", "NIGIT"]
+            },
+            "body": [["@OCK", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["BEDEK", "NIGIT", "OCK"]]
+        },
         "OTMET1H": {
             "icao": "OTMET1H",
             "name": "Otmet One Hotel",
