@@ -1613,6 +1613,51 @@
             },
             "draw": [["ROXOG", "AMTOD", "BEGTO", "HAZEL", "LLS01", "OCK"]]
         },
+        "TOMMO1A": {
+            "icao": "TOMMO1A",
+            "name": "Tommo One Alpha",
+            "entryPoints": {
+                "KENET": ["KENET", ["_TOMMO288040", "A140+"], "CPT"]
+            },
+            "body": [["@TOMMO", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["KENET", "CPT", "TOMMO"]]
+        },
+        "TOMMO1D": {
+            "icao": "TOMMO1D",
+            "name": "Tommo One Delta",
+            "entryPoints": {
+                "HON": ["HON", "^WOD", "_HON153065"]
+            },
+            "body": [["@TOMMO", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["HON", "WOD", "_HON153065", "TOMMO"]]
+        },
+        "TOMMO2F": {
+            "icao": "TOMMO2F",
+            "name": "Tommo Two Foxtrot",
+            "entryPoints": {
+                "BEDEK": ["BEDEK", "NIGIT"]
+            },
+            "body": [["@TOMMO", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["BEDEK", "NIGIT", "TOMMO"]]
+        },
         "WEALD1E": {
             "icao": "WEALD1E",
             "name": "Biggin One Echo",
