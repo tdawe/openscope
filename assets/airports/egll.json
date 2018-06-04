@@ -1568,6 +1568,36 @@
             },
             "draw": [["HON", "WOD", "OCK"]]
         },
+        "OCK1G": {
+            "icao": "OCK1G",
+            "name": "Ockham One Golf",
+            "entryPoints": {
+                "BIG": ["BIG", "DORKI"]
+            },
+            "body": [["@OCK", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["BIG", "DORKI", "OCK"]]
+        },
+        "OCK1H": {
+            "icao": "OCK1H",
+            "name": "Ockham One Hotel",
+            "entryPoints": {
+                "LAM": ["LAM", "DORKI"]
+            },
+            "body": [["@OCK", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["LAM", "DORKI", "OCK"]]
+        },
         "OCK2C": {
             "icao": "OCK2C",
             "name": "Ockham Two Charlie",
@@ -1688,13 +1718,43 @@
             },
             "draw": [["HON", "WOD", "_HON153065", "TOMMO"]]
         },
+        "TOMMO1G": {
+            "icao": "TOMMO1G",
+            "name": "Tommo One Golf",
+            "entryPoints": {
+                "BID": ["BIG", "HOGBA"]
+            },
+            "body": [["@TOMMO", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["BIG", "HOGBA", "TOMMO"]]
+        },
+        "TOMMO1H": {
+            "icao": "TOMMO1H",
+            "name": "Tommo One Hotel",
+            "entryPoints": {
+                "BID": ["LAM", "HOGBA"]
+            },
+            "body": [["@TOMMO", "A70+"]],
+            "rwy": {
+                "EGLL27R": [],
+                "EGLL27L": [],
+                "EGLL09R": [],
+                "EGLL09L": []
+            },
+            "draw": [["LAM", "HOGBA", "TOMMO"]]
+        },
         "TOMMO2C": {
             "icao": "TOMMO2C",
             "name": "Tommo Two Charlie",
             "entryPoints": {
-                "SAM": ["SAM"]
+                "SAM": ["SAM", ["HAZEL", "A130"], "FIMLI"]
             },
-            "body": [["HAZEL", "A130"], "FIMLI", ["@TOMMO", "A70+"]],
+            "body": [["@TOMMO", "A70+"]],
             "rwy": {
                 "EGLL27R": [],
                 "EGLL27L": [],
@@ -1722,9 +1782,9 @@
             "icao": "TOMMO3E",
             "name": "Tommo Three Echo",
             "entryPoints": {
-                "BILNI": ["BILNI", "KUMIL", "ELDER"]
+                "BILNI": ["BILNI", "KUMIL", "ELDER", ["HAZEL", "A130"], "FIMLI"]
             },
-            "body": [["HAZEL", "A130"], "FIMLI", ["@TOMMO", "A70+"]],
+            "body": [["@TOMMO", "A70+"]],
             "rwy": {
                 "EGLL27R": [],
                 "EGLL27L": [],
@@ -1737,9 +1797,9 @@
             "icao": "TOMMO4B",
             "name": "Tommo Four Bravo",
             "entryPoints": {
-                "DOMUT": ["DOMUT", "KATHY"]
+                "DOMUT": ["DOMUT", "KATHY", ["HAZEL", "A130"], "FIMLI"]
             },
-            "body": [["HAZEL", "A130"], "FIMLI", ["@TOMMO", "A70+"]],
+            "body": [["@TOMMO", "A70+"]],
             "rwy": {
                 "EGLL27R": [],
                 "EGLL27L": [],
