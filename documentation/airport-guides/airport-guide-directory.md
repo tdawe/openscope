@@ -26,6 +26,7 @@ In order to help you learn the details of each particular airspace, an "airport 
 - [KSTL - St. Louis Lambert International Airport](kstl.md)
 - [KTUS - Tucson International Airport](ktus.md)
 - [LKPR - Václav Havel International Airport](lkpr.md)
+- [LROP - Bucharest Henri Coanda International Airport](lrop.md)
 - [LSZH - Zürich Airport](lszh.md)
 - [MDSD - Las Américas International Airport](mdsd.md)
 - [OMAA - Abu Dhabi International Airport](omaa.md)
