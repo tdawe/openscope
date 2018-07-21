@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "EGLL",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "elevation": null }, "geometry": { "type": "LineString", "coordinates": [ [ -0.764444701, 50.773888888 ], [ -0.7659050862, 50.773888888 ] ] } },
+{ "type": "Feature", "properties": { "elevation": null }, "geometry": { "type": "LineString", "coordinates": [ [ -0.7699457772, 50.773888888 ], [ -0.7701626684, 50.773888888 ] ] } }
+]
+}
