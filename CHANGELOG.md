@@ -5,9 +5,11 @@
 
 
 
+
 ### Bugfixes
 - [#1018](https://github.com/openscope/openscope/issues/1018) - Fix "leaving airspace without proper clearance" bug at KSEA
 - [#915](https://github.com/openscope/openscope/issues/915) - Change passing/diverging separation logic to use assigned heading, not ground track heading
+- [#943](https://github.com/openscope/openscope/issues/943) - Fix random spawn calculations to ensure arrivals are available quickly
 
 
 
