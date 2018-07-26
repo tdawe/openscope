@@ -1,6 +1,7 @@
 # 6.4.0 (August 1, 2018)
 ### New Features
 - [#403](https://github.com/openscope/openscope/issues/403) - Add Flughafen Düsseldorf (Düsseldorf Airport, EDDL)
+- [#1032](https://github.com/openscope/openscope/issues/1032) - Add range ring options and toggle button
 
 
 
