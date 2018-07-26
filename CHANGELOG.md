@@ -10,6 +10,9 @@
 - [#1048](https://github.com/openscope/openscope/issues/1048) - fix "Aircrafts do not land after ILS clearance" because runway is not part of their STAR
 - [#1044](https://github.com/openscope/openscope/issues/1044) - fix aircrafts drift off ILS localizer during final approach causing "strange behaviour after landing"
 - [#1047](https://github.com/openscope/openscope/issues/1047) - fix "Flight number 5000 pronounced incorrectly"
+- [#1018](https://github.com/openscope/openscope/issues/1018) - Fix "leaving airspace without proper clearance" bug at KSEA
+- [#915](https://github.com/openscope/openscope/issues/915) - Change passing/diverging separation logic to use assigned heading, not ground track heading
+- [#1034](https://github.com/openscope/openscope/issues/1034) - Fix waypoint time-to-turn calculations to ensure smooth turns
 
 
 
