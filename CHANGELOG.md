@@ -7,7 +7,7 @@
 
 
 ### Bugfixes
-- Fix bug where changing aircraft to new departure runway made the previous one unusable by other aircraft [#870](https://github.com/openscope/openscope/issues/870)
+- [#870](https://github.com/openscope/openscope/issues/870) - Fix bug where changing aircraft to new departure runway made the previous one unusable by other aircraft
 
 
 
