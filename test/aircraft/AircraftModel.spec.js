@@ -15,7 +15,11 @@ import {
     ARRIVAL_AIRCRAFT_INIT_PROPS_WITH_SOFT_ALTITUDE_RESTRICTIONS_MOCK,
     DEPARTURE_AIRCRAFT_INIT_PROPS_MOCK
 } from './_mocks/aircraftMocks';
-import { FLIGHT_PHASE } from '../../src/assets/scripts/client/constants/aircraftConstants';
+import {
+    FLIGHT_PHASE,
+    PERFORMANCE
+} from '../../src/assets/scripts/client/constants/aircraftConstants';
+import { AIRPORT_CONSTANTS } from '../../src/assets/scripts/client/constants/airportConstants';
 
 // mocks
 const runwayNameMock = '19L';
