@@ -51,7 +51,8 @@ export default class StripViewController {
          * @property $stripViewList
          * @type {JQuery|HTMLElement}
          */
-        this.$stripViewList = $(SELECTORS.DOM_SELECTORS.STRIP_VIEW_LIST);
+        this.$stripViewListArrivals = $(SELECTORS.DOM_SELECTORS.STRIP_VIEW_ARRIVALS_LIST);
+        this.$stripViewListDepartures = $(SELECTORS.DOM_SELECTORS.STRIP_VIEW_DEPARTURES_LIST);
 
         /**
          * Trigger that toggles visibility of the `$stripView`
@@ -95,7 +96,8 @@ export default class StripViewController {
      */
     enable() {
         this.$stripListTrigger.on('click', this._onStripListToggle);
-        this.$stripViewList.on('click', this._onStripListClickOutsideStripViewModel);
+        this.$stripViewListArrivals.on('click', this._onStripListClickOutsideStripViewModel);
+        this.$stripViewListDepartures.on('click', this._onStripListClickOutsideStripViewModel);
 
         return this;
     }
@@ -273,11 +275,19 @@ export default class StripViewController {
             throw new TypeError(`Expected an instance of StripViewModel but received ${typeof stripViewModel}`);
         }
 
-        const scrollPosition = this.$stripViewList.scrollTop();
+        if (stripViewModel._categoryClassName == "arrival") {
+            const scrollPosition = this.$stripViewListArrivals.scrollTop();
 
-        this.$stripViewList.append(stripViewModel.$element);
-        // shift scroll down one strip's height
-        this.$stripViewList.scrollTop(scrollPosition + StripViewModel.HEIGHT);
+            this.$stripViewListArrivals.append(stripViewModel.$element);
+            // shift scroll down one strip's height
+            this.$stripViewListArrivals.scrollTop(scrollPosition + StripViewModel.HEIGHT);
+        } else {
+            const scrollPosition = this.$stripViewListDepartures.scrollTop();
+
+            this.$stripViewListDepartures.append(stripViewModel.$element);
+            // shift scroll down one strip's height
+            this.$stripViewListDepartures.scrollTop(scrollPosition + StripViewModel.HEIGHT);
+        }
     }
 
     /**
