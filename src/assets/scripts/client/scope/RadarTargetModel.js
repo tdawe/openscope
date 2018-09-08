@@ -246,7 +246,7 @@ export default class RadarTargetModel {
         }
 
         this._scratchPadText = this.aircraftModel.destination.substr(1);
-
+        this.aircraftModel.remarks = this._scratchPadText;
         return this;
     }
 
@@ -382,6 +382,7 @@ export default class RadarTargetModel {
      */
     setScratchpad(scratchPadText) {
         this._scratchPadText = scratchPadText;
+        this.aircraftModel.remarks = this._scratchPadText;
 
         return [true, 'SET SCRATCHPAD'];
     }
