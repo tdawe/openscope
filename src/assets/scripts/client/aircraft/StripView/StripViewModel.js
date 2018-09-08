@@ -191,6 +191,8 @@ export default class StripViewModel extends BaseModel {
          */
         this._transponder = INVALID_NUMBER;
 
+        this._remarks = null;
+
         /**
          * HTML Element that holds the `#_transponderCode` value
          *
@@ -199,6 +201,8 @@ export default class StripViewModel extends BaseModel {
          * @default null
          */
         this.$transponderView = null;
+
+        this.$remarksView = null;
 
         /**
          * Altitude aircraft has been assigned in FL feet
@@ -355,7 +359,8 @@ export default class StripViewModel extends BaseModel {
             arrivalAirportId,
             departureAirportId,
             flightPlanAltitude,
-            flightPlan
+            flightPlan,
+            remarks
         } = aircraftModel.getViewModel();
 
         this.insideCenter = insideCenter;
@@ -367,6 +372,7 @@ export default class StripViewModel extends BaseModel {
         this._arrivalAirport = arrivalAirportId;
         this._departureAirport = departureAirportId;
         this._flightPlan = flightPlan;
+        this._remarks = remarks;
         this._categoryClassName = this._buildClassnameForFlightCategory(aircraftModel);
 
         return this;
@@ -393,6 +399,8 @@ export default class StripViewModel extends BaseModel {
         this.$departureAirportView = this.$element.find(STRIP_VIEW_SELECTORS.DEPARTURE_AIRPORT_ID);
         this.$alternateAirportView = this.$element.find(STRIP_VIEW_SELECTORS.ALTERNATE_AIRPORT_ID);
         this.$flightPlanView = this.$element.find(STRIP_VIEW_SELECTORS.FLIGHT_PLAN);
+        this.$remarksView = this.$element.find
+        (STRIP_VIEW_SELECTORS.REMARKS)
 
         return this;
     }
@@ -470,6 +478,7 @@ export default class StripViewModel extends BaseModel {
         this.$arrivalAirportView.text(this._arrivalAirport);
         this.$alternateAirportView.text(this._alternateAirport);
         this.$flightPlanView.text(this._flightPlan);
+        this.$remarksView.text(this._remarks)
 
         return this;
     }
@@ -524,6 +533,7 @@ export default class StripViewModel extends BaseModel {
         this.$alternateAirportView = null;
         this._flightPlan = '';
         this.$flightPlanView = null;
+        this.$remarksView = null;
 
         return this;
     }
@@ -638,7 +648,8 @@ export default class StripViewModel extends BaseModel {
             this._flightPlanAltitude !== viewModel.flightPlanAltitude ||
             this._arrivalAirport !== viewModel.arrivalAirportId ||
             this._departureAirport !== viewModel.departureAirportId ||
-            this._flightPlan !== viewModel.flightPlan;
+            this._flightPlan !== viewModel.flightPlan ||
+            this._remarks !== viewModel.remarks;
     }
 
     /**
@@ -660,7 +671,8 @@ export default class StripViewModel extends BaseModel {
             arrivalAirportId,
             departureAirportId,
             flightPlanAltitude,
-            flightPlan
+            flightPlan,
+            remarks
         } = aircraftModel.getViewModel();
 
         this.insideCenter = insideCenter;
@@ -670,6 +682,7 @@ export default class StripViewModel extends BaseModel {
         this._arrivalAirport = arrivalAirportId;
         this._departureAirport = departureAirportId;
         this._flightPlan = flightPlan;
+        this._remarks = remarks;
 
         return this._redraw();
     }

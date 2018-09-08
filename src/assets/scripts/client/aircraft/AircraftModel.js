@@ -108,6 +108,7 @@ export default class AircraftModel {
          * @type {string}
          */
         this.id = _uniqueId('aircraft-');
+        this.remarks = null;
 
         /**
          * Aircraft's DynamicPositionModel
@@ -638,7 +639,8 @@ export default class AircraftModel {
             flightPlanAltitude,
             arrivalAirportId: this.destination.toUpperCase(),
             departureAirportId: this.origin.toUpperCase(),
-            flightPlan: this.fms.getFullRouteStringWithoutAirportsWithSpaces()
+            flightPlan: this.fms.getFullRouteStringWithoutAirportsWithSpaces(),
+            remarks: this.remarks
         };
     }
 
