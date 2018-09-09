@@ -275,19 +275,11 @@ export default class StripViewController {
             throw new TypeError(`Expected an instance of StripViewModel but received ${typeof stripViewModel}`);
         }
 
-        if (stripViewModel._categoryClassName == "arrival") {
-            const scrollPosition = this.$stripViewListArrivals.scrollTop();
-
-            this.$stripViewListArrivals.append(stripViewModel.$element);
-            // shift scroll down one strip's height
-            this.$stripViewListArrivals.scrollTop(scrollPosition + StripViewModel.HEIGHT);
-        } else {
-            const scrollPosition = this.$stripViewListDepartures.scrollTop();
-
-            this.$stripViewListDepartures.append(stripViewModel.$element);
-            // shift scroll down one strip's height
-            this.$stripViewListDepartures.scrollTop(scrollPosition + StripViewModel.HEIGHT);
-        }
+        const listView = stripViewModel._categoryClassName == "arrival" ? this.$stripViewListArrivals : this.$stripViewListDepartures
+        const scrollPosition = listView.scrollTop();
+        listView.append(stripViewModel.$element);
+        // shift scroll down one strip's height
+        listView.scrollTop(scrollPosition + StripViewModel.HEIGHT);        
     }
 
     /**
