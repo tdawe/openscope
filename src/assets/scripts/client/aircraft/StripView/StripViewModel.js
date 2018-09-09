@@ -49,7 +49,7 @@ export default class StripViewModel extends BaseModel {
      * @param aircraftModel {object}
      * @param cidValue {number}
      */
-    constructor(aircraftModel, cidValue) {
+    constructor(aircraftModel, cidValue, isDeparture) {
         super('stripViewModel');
 
         /**
@@ -68,6 +68,8 @@ export default class StripViewModel extends BaseModel {
          * @private
          */
         this._eventBus = EventBus;
+
+        this._isDeparture = isDeparture;
 
         /**
          * Root HTML Element

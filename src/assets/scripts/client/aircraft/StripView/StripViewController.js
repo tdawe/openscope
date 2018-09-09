@@ -151,7 +151,7 @@ export default class StripViewController {
             let stripViewModel = this._collection.findStripByAircraftId(aircraftModel.id);
             
             if (typeof stripViewModel === "undefined") {
-                stripViewModel = this.createStripView(aircraftModel);
+                stripViewModel = this.createStripView(aircraftModel, aircraftModel.isDeparture());
             }
 
             stripViewModel.update(aircraftModel);
@@ -166,9 +166,9 @@ export default class StripViewController {
      * @param aircraftModel {AircraftModel}
      * @return {StripViewModel}
      */
-    createStripView(aircraftModel) {
+    createStripView(aircraftModel, isDeparture) {
         const stripViewCid = this._generateCidNumber();
-        const stripViewModel = new StripViewModel(aircraftModel, stripViewCid);
+        const stripViewModel = new StripViewModel(aircraftModel, stripViewCid, isDeparture);
 
         this._collection.addItem(stripViewModel);
 
@@ -275,7 +275,7 @@ export default class StripViewController {
             throw new TypeError(`Expected an instance of StripViewModel but received ${typeof stripViewModel}`);
         }
 
-        const listView = stripViewModel._categoryClassName == "arrival" ? this.$stripViewListArrivals : this.$stripViewListDepartures
+        const listView = stripViewModel._isDeparture ? this.$stripViewListDepartures : this.$stripViewListArrivals
         const scrollPosition = listView.scrollTop();
         listView.append(stripViewModel.$element);
         // shift scroll down one strip's height
